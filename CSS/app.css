@@ -1,0 +1,10 @@
+*{
+    font-family: 'Russo One', cursive;
+    line-height: 1;
+}
+.container-calculator{
+    width: 400px;
+}
+.container-display{
+    height: 70px;
+}
