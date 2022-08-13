@@ -1,2 +1,2 @@
 # vue-calculator
-Calculador criada em VueJS.
+Calculadora criada em VueJS.
