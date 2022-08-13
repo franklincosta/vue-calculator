@@ -2,9 +2,30 @@
     font-family: 'Russo One', cursive;
     line-height: 1;
 }
+.component-calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .container-calculator{
     width: 400px;
 }
 .container-display{
     height: 70px;
+}
+@media screen and (max-width: 600px){
+    .component-calculator{
+        position: relative;
+        top: inherit;
+        left: inherit;
+        transform: none;
+    }
+    .container-calculator{
+        width: 100%;
+    }
+    .container-display{
+        height: 70px;
+        line-height: 1.5;
+    }
 }
